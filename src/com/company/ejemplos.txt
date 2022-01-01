@@ -1,0 +1,35 @@
+\d{3}[\s-.]\d{2}[\s-.]\d{2}[\s-.]\d{2}   ===> para numeros de telefono
+
+\w?\d{7,8}\w   ====> para DNI - NIE
+
+^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$  =====> para email
+
+^\w+\s\w+\s\w+,?\s\d{1,4}\,?\s\d-?\w,?\s\w+,?\s\d{5}$"   ====> para dirección
+
+^[a-zA-Z]+ [a-zA-Z.?]+ ?[a-zA-Z]+ ?[a-zA-Z.?]+$   ====> para nombre y apellidos
+
+
+desimorenoh_123@gmail.com
+962 20 30 40
+26902390M
+Maria moreno hernandez mo
+Calle Buena Vibra 50 2A Barcelona, 08231
+
+desimrenoh-123@gmail.com
+962-20-30-40
+26902390M
+lucas campos m
+Calle Buena Vibra 50, 2-3, Barcelona, 08031
+
+desimorenoh.123@gmail-g.com
+962.20.30.40
+Y2690290m
+Lucas a campos m.
+Calle Buena Vibra 5023, 2-3, Barcelona, 08031
+
+
+desimorenoh.123@gmail-g.com
+962.20.30.40
+Y2690290m
+lucas a. campos more
+Calle Buena Vibra 5023 2-3 Barcelona 08031
