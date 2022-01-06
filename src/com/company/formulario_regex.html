@@ -11,7 +11,7 @@ box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15p
     <div class="name" style="display: flex; flex-direction: column; justify-content: space-evenly; flex-wrap: wrap">
         <label for="name" style="padding: 5px 0 5px 0">Nombre y Apellidos:</label>
         <input type="text" id="name" name="name" placeholder="Ej: José Pérez Gómez" style="padding: 5px 0 5px 0"
-               pattern="^[a-zA-Z]+ [a-zA-Z.?]+ ?[a-zA-Z]+ ?[a-zA-Z.?]+$">
+               pattern="^[a-zA-ZÀ-ÿ\u00f1]+(\s*[a-zA-ZÀ-ÿ\u00f1]*)*[a-zA-ZÀ-ÿ\u00f1]+ ?$">
 
         <label for="dni" style="padding: 5px 0 5px 0">DNI/NIE:</label>
         <input type="text" id="dni" name="dni" placeholder="12345678Y" style="padding: 5px 0 5px 0"
